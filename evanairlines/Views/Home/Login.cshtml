@@ -1,0 +1,28 @@
+﻿@model UserModel
+
+<form style="margin: auto; max-width: 400px; border: 1px solid #333333; border-radius: 14px; padding: 24px;" method="post">
+    <h1 class="text-center">Login</h1>
+    @if (TempData["Error"] != null) {
+        <div class="col-md-12 alert alert-danger">
+            <span>@TempData["Error"]</span>
+        </div>
+    }
+    <div class="form-outline mb-2">
+        <label class="form-label" for="email" style="font-size: 16px;">Email address</label>
+        <input type="text" id="email" class="form-control" name="email" />
+    </div>
+
+    <div class="form-outline mb-2">
+        <label class="form-label" for="password" style="font-size: 16px;">Password</label>
+        <input type="password" id="password" class="form-control" name="password" />
+    </div>
+
+    <div class="col mb-3">
+        <a asp-area="" asp-controller="Home" asp-action="ForgotPassword">Forgot password?</a>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+    <div class="text-center">
+        <p>Not a member? <a asp-area="" asp-controller="Home" asp-action="Login">Register</a></p>
+    </div>
+</form>

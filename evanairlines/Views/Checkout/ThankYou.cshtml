@@ -1,0 +1,23 @@
+﻿@model List<ConfirmationModel>
+@{
+    ViewData["Title"] = "Thank you for booking a Flight!";
+    var confirmationCode = "";
+}
+<h1 class="display-3 text-center" style="margin-bottom: 32px; margin-left: 50px;">@ViewData["Title"]</h1>
+<br>
+<br>
+<br>
+<br>
+
+@foreach (var confirmation in Model)
+{
+    confirmationCode = confirmation.confirmationCode;
+    <p class="display-3 text-center">@confirmation.route</p>
+    <p class="display-3 text-center">@confirmation.aircraft</p>
+    <p class="display-3 text-center">@confirmation.number</p>
+}
+<br>
+<br>
+<h2 class="text-center">Your confirmation code:</h2>
+<p class="display-3 text-center">@confirmationCode</p>
+

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<LogbookModel>
+@{
+    ViewData["Title"] = "Logbook";
+}
+
+<h1 class="display-3 text-center" style="margin-bottom: 32px;">@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr class="green-bg">
+            <th scope="col">Pilot</th>
+            <th scope="col">Copilot</th>
+            <th scope="col">Engineer</th>
+            <th scope="col">Flight Attendant</th>
+            <th scope="col">Departure</th>
+            <th scope="col">Arrival</th>
+            <th scope="col">Flight Time</th>
+            <th scope="col">Date</th>
+            <th scope="col">Pay</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var flight in Model)
+        {
+            <tr style="color: white">
+                <td>@flight.pilot</td>
+                <td>@flight.copilot</td>
+                <td>@flight.engineer</td>
+                <td>@flight.fl_attendant</td>
+                <td>@flight.departure</td>
+                <td>@flight.arrival</td>
+                <td>@flight.hours hr @flight.minutes min</td>
+                <td>@flight.date</td>
+                <td>$@flight.pay</td>
+            </tr>
+        }
+    </tbody>
+</table>
+        
+

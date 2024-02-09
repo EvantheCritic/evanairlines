@@ -1,0 +1,74 @@
+﻿@model IEnumerable<FlightModel>
+@{
+    ViewData["Title"] = "Schedule a Flight";
+}
+<style>
+    .custom-search-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 32px auto; /* Center the container if needed */
+        gap: 20px;
+    }
+
+    .custom-search-field {
+        flex: 1;
+    }
+
+    .custom-search-button {
+        flex: 0;
+    }
+</style>
+@if (ViewBag.AddToCartMessage != null)
+{
+    <script>
+        alert("@ViewBag.AddToCartMessage");
+    </script>
+}
+<h1 class="display-3 text-center" style="margin-bottom: 32px;">@ViewData["Title"]</h1>
+@if (!User.Identity.IsAuthenticated)
+{
+    <h3 style="text-align: center;">Please log in to book flights</h3>
+}
+<form class="custom-search-container" method="post">
+    <div class="input-group custom-search-field">
+        <input type="text" class="form-control" placeholder="Departure" aria-label="Search" aria-describedby="basic-addon2" id="departure" name="departure">
+    </div>
+    <div class="input-group custom-search-field">
+        <input type="text" class="form-control" placeholder="Arrival" aria-label="Search" aria-describedby="basic-addon2" id="arrival" name="arrival">
+    </div>
+    <button class="btn btn-outline-secondary custom-search-button" type="submit">Search</button>
+</form>
+<div id="flight-container">
+    @foreach (var flight in Model)
+    {
+        <div class="green-bg container my-5">
+            <div class="row p-4 pb-0 pe-lg-0 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h2 class="lh-1 text-body-emphasis">@flight.departure - @flight.arrival</h2>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <form asp-action="AddToCart" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@flight.id">
+                                <input type="hidden" name="number" value="@flight.number">
+                                <input type="hidden" name="departure" value="@flight.departure">
+                                <input type="hidden" name="arrival" value="@flight.arrival">
+                                <input type="hidden" name="aircraft" value="@flight.aircraft">
+                                <input type="hidden" name="cost" value="@flight.cost">
+                                <input type="hidden" name="user" value="@User.Identity.Name">
+                                <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Add flight to cart</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0">
+                    <p class="lead fs-3">Aircraft: @flight.aircraft</p>
+                    <p class="lead fs-3">Flight number: @flight.number</p>
+                    <p class="lead fs-3">Price: $@flight.cost</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

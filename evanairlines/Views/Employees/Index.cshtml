@@ -1,0 +1,35 @@
+﻿@model IEnumerable<EmployeeModel>
+@{
+    ViewData["Title"] = "Employees";
+}
+<style>
+    .employee-bg {
+        background-color: #B0E57C;
+        color: black;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 12px;
+        padding: 20px;
+    }
+</style>
+
+<h1 class="display-3 text-center" style="margin-bottom: 32px;">@ViewData["Title"]</h1>
+
+
+<div class="row">
+    @foreach (var employee in Model)
+    {
+        <div class="employee-bg">
+            <img class="bd-placeholder-img rounded-circle" src="~/Images/@(employee.name).jpg" alt="@employee.name" width="140" height="140">
+            <h2 class="fw-normal">@employee.name</h2>
+            <p class="lead">Job: @employee.job</p>
+            <p>Years of Experience: @employee.experience</p>
+            <p>Hours: @employee.hours</p>
+            <p>Pay: @employee.pay</p>
+            <p><a class="btn btn-secondary" href="#">View Flights Flown »</a></p>
+        </div>
+    }
+</div>
+
+
+

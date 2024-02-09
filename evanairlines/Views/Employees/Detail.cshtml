@@ -1,0 +1,26 @@
+﻿@model EmployeeModel
+
+<div class="container my-5">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <img class="bi mt-4 mb-3" src="~/Images/@(Model.name).jpg" style="color: var(--bs-indigo); border-radius: 50%" width="100" height="100">
+        <p>Employee Id number: @Model.id</p>
+        <h1 class="text-body-emphasis">@Model.name</h1>
+        <ul>
+            <li style="text-decoration: none">Job: @Model.job</li>
+            <li style="text-decoration: none">Experience Rating: @Model.experience/50</li>
+            <li style="text-decoration: none">Hours: @Model.hours</li>
+            <li style="text-decoration: none">Pay: @Model.pay</li>
+        </ul>
+        <div class="d-inline-flex gap-2 mb-5">
+            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                Call to action
+                <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+            </button>
+            <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                Secondary link
+            </button>
+        </div>
+    </div>
+</div>
+
+

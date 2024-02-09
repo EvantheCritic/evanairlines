@@ -1,0 +1,73 @@
+﻿@model List<CheckoutModel>
+@{
+    ViewData["Title"] = "Checkout";
+    var totalCost = 0;
+}
+<h1 class="display-3 text-center" style="margin-bottom: 32px; margin-left: 50px;">@ViewData["Title"]</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="container">
+        <main>
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-primary">Your cart</span>
+                        <span class="badge bg-primary rounded-pill">@Model.Count</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        @foreach (var entry in Model)
+                        {
+                            totalCost += entry.cost;
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">@entry.departure - @entry.arrival</h6>
+                                    <small class="text-body-secondary">@entry.aircraft</small>
+                                    <small class="text-body-secondary">@entry.number</small>
+                                </div>
+                                <span class="text-body-secondary">$@entry.cost</span>
+                            </li>
+                        }
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total (USD)</span>
+                            <strong>$@totalCost</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Your info</h4>
+                    <form asp-action="ThankYou" class="needs-validation" novalidate="" method="post">
+                        <input type="hidden" name="user" value="@User.Identity.Name">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Checkout</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+}
+else
+{
+    <h2>Please log in to book flights</h2>
+}
+
+
+

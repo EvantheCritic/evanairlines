@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\evanairlines.bundle.scp.css",
+      "PackagePath": "staticwebassets\\evanairlines.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\4e5kz1lf.png",
+      "PackagePath": "staticwebassets\\Images\\4e5kz1lf.png"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Carolina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carolina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Eva.jpg",
+      "PackagePath": "staticwebassets\\Images\\Eva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Evan.jpg",
+      "PackagePath": "staticwebassets\\Images\\Evan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Grace.jpg",
+      "PackagePath": "staticwebassets\\Images\\Grace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Ian.jpg",
+      "PackagePath": "staticwebassets\\Images\\Ian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Kevin.jpg",
+      "PackagePath": "staticwebassets\\Images\\Kevin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Mindy.jpg",
+      "PackagePath": "staticwebassets\\Images\\Mindy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Peter.jpg",
+      "PackagePath": "staticwebassets\\Images\\Peter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Tamara.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tamara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\home-img.png",
+      "PackagePath": "staticwebassets\\Images\\home-img.png"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\jane.jpg",
+      "PackagePath": "staticwebassets\\Images\\jane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\jill.jpg",
+      "PackagePath": "staticwebassets\\Images\\jill.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\john.jpg",
+      "PackagePath": "staticwebassets\\Images\\john.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.evanairlines.props",
+      "PackagePath": "build\\evanairlines.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.evanairlines.props",
+      "PackagePath": "buildMultiTargeting\\evanairlines.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.evanairlines.props",
+      "PackagePath": "buildTransitive\\evanairlines.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.evanairlines.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
