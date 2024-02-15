@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CeKJ4Jx61KfHR2/oaLmBeLPSBExdOmZLesMUYd6eeZg=",
+  "Hash": "BD+rMT+YHvZxhaSro4HtNZuwiu44mOdiAq7G5PNVWEM=",
   "Source": "evanairlines",
   "BasePath": "_content/evanairlines",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Carolina.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\concorde.jpg",
+      "SourceId": "evanairlines",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\",
+      "BasePath": "_content/evanairlines",
+      "RelativePath": "Images/concorde.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\concorde.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\concorde.webp",
+      "SourceId": "evanairlines",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\",
+      "BasePath": "_content/evanairlines",
+      "RelativePath": "Images/concorde.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\concorde.webp"
     },
     {
       "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Eva.jpg",
@@ -270,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Kevin.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Marlena.jpg",
+      "SourceId": "evanairlines",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\",
+      "BasePath": "_content/evanairlines",
+      "RelativePath": "Images/Marlena.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Marlena.jpg"
     },
     {
       "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Mindy.jpg",

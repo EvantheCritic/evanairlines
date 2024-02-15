@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\Kevin.jpg"
     },
     {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Marlena.jpg",
+      "PackagePath": "staticwebassets\\Images\\Marlena.jpg"
+    },
+    {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Mindy.jpg",
       "PackagePath": "staticwebassets\\Images\\Mindy.jpg"
     },
@@ -43,6 +47,14 @@
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Tamara.jpg",
       "PackagePath": "staticwebassets\\Images\\Tamara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\concorde.jpg",
+      "PackagePath": "staticwebassets\\Images\\concorde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\concorde.webp",
+      "PackagePath": "staticwebassets\\Images\\concorde.webp"
     },
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\home-img.png",

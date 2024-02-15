@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2pNndjDdbOpZjDvs9QkLDfgKHNtrgI9AZBKmKg/Gw9k=",
+  "Hash": "hduNTRoaMU4411mC3gRNY2m+Frk8Bs5jrwP3BDuYCGg=",
   "Source": "evanairlines",
   "BasePath": "_content/evanairlines",
   "Mode": "Default",
@@ -304,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Kevin.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Marlena.jpg",
+      "SourceId": "evanairlines",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\",
+      "BasePath": "_content/evanairlines",
+      "RelativePath": "Images/Marlena.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Marlena.jpg"
     },
     {
       "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Mindy.jpg",

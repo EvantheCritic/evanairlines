@@ -1,6 +1,7 @@
 ﻿@model IEnumerable<EmployeeModel>
 @{
     ViewData["Title"] = "Employees";
+    
 }
 <style>
     .employee-bg {
@@ -24,7 +25,7 @@
             <h2 class="fw-normal">@employee.name</h2>
             <p class="lead">Job: @employee.job</p>
             <p>Years of Experience: @employee.experience</p>
-            <p>Hours: @employee.hours</p>
+            <p>Hours: @Math.Round(employee.hours, 2)</p>
             <p>Pay: @employee.pay</p>
         </div>
     }
