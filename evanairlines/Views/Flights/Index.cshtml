@@ -19,16 +19,15 @@
         flex: 0;
     }
 </style>
-@if (ViewBag.AddToCartMessage != null)
-{
-    <script>
-        alert("@ViewBag.AddToCartMessage");
-    </script>
-}
 <h1 class="display-3 text-center" style="margin-bottom: 32px;">@ViewData["Title"]</h1>
+<h1 class="text-center" style="margin-bottom: 32px; color: greenyellow">@TempData["AddStatus"]</h1>
 @if (!User.Identity.IsAuthenticated)
 {
-    <h3 style="text-align: center;">Please log in to book flights</h3>
+    <div class="col-md-12 text-center">
+        <div class="alert alert-danger" style="display: inline-block; padding: 16px;">
+            <h3 style="margin-bottom: 0">Please login to book flights</h3>
+        </div>
+    </div>
 }
 <form class="custom-search-container" method="post">
     <div class="input-group custom-search-field">

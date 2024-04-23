@@ -48,13 +48,14 @@ namespace evanairlines.Controllers
             {
                 context.Checkout.Add(entry);
                 context.SaveChanges();
-                ViewBag.AddToCartMessage = "Flight added to cart!";
+                TempData["AddStatus"] = "Flight added to cart!";
+                ViewBag.AddToCartMessage = "";
                 return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                ViewBag.AddToCartMessage = "Error adding flight to cart";
+                TempData["AddStatus"] = "Error adding flight to cart";
                 return RedirectToAction("Index");
             }
         }

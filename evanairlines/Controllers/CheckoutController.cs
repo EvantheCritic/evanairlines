@@ -22,6 +22,15 @@ namespace evanairlines.Controllers
             return View(cart);
         }
 
+        public IActionResult Empty(string user)
+        {
+            var entriesToRemove = context.Checkout
+                .Where(entry => entry.username == user);
+            context.Checkout.RemoveRange(entriesToRemove);
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         public string generateConfirmationCode()
         {
             string confirmation = "";
@@ -49,6 +58,7 @@ namespace evanairlines.Controllers
                 ConfirmationModel confirmation = new ConfirmationModel
                 {
                     confirmationCode = confirmationCode,
+                    username = user,
                     firstName = firstName,
                     lastName = lastName,
                     route = entry.departure + " - " + entry.arrival,

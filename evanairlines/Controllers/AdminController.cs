@@ -35,7 +35,7 @@ namespace evanairlines.Controllers
         {
             LogbookModel entry = new LogbookModel
             {
-                id = _entry.id,
+                user_booked = _entry.user_booked,
                 pilot = _entry.pilot,
                 copilot = _entry.copilot,
                 engineer = _entry.engineer,
@@ -59,6 +59,12 @@ namespace evanairlines.Controllers
                 if (entry.pilot == employee.name || entry.copilot == employee.name || entry.engineer == employee.name || entry.fl_attendant == employee.name)
                 {
                     employee.hours += time;
+                    if (employee.job == "Captain")
+                        employee.pay += entry.pay / 2;
+                    else if (employee.job == "First Officer")
+                        employee.pay += entry.pay / 4;
+                    else
+                        employee.pay += entry.pay / 8;
                 }
             }
             context.SaveChanges();

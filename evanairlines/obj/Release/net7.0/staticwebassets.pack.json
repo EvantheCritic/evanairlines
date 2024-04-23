@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\Images\\4e5kz1lf.png"
     },
     {
-      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Carolina.jpg",
-      "PackagePath": "staticwebassets\\Images\\Carolina.jpg"
-    },
-    {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Eva.jpg",
       "PackagePath": "staticwebassets\\Images\\Eva.jpg"
     },
@@ -43,6 +39,10 @@
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Peter.jpg",
       "PackagePath": "staticwebassets\\Images\\Peter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Sheila.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sheila.jpg"
     },
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Tamara.jpg",

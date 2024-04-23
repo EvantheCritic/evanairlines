@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vKPHC+MgxXltvZ9hSRlhJ3fGpFgbqAMbfFpvZyyj1ek=",
+  "Hash": "uoZ6gMSdF4lkKi5w0LWVUJYCxpYCtwZOrLtxPvtIEwM=",
   "Source": "evanairlines",
   "BasePath": "_content/evanairlines",
   "Mode": "Default",
@@ -100,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\4e5kz1lf.png"
-    },
-    {
-      "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Carolina.jpg",
-      "SourceId": "evanairlines",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\",
-      "BasePath": "_content/evanairlines",
-      "RelativePath": "Images/Carolina.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Carolina.jpg"
     },
     {
       "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\concorde.jpg",
@@ -355,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Peter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Sheila.jpg",
+      "SourceId": "evanairlines",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\",
+      "BasePath": "_content/evanairlines",
+      "RelativePath": "Images/Sheila.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Sheila.jpg"
     },
     {
       "Identity": "C:\\Users\\johns\\Source\\Repos\\evanairlines\\evanairlines\\wwwroot\\Images\\Tamara.jpg",

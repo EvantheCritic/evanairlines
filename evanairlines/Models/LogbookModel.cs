@@ -6,6 +6,7 @@ namespace evanairlines.Models
     {
         [Key]
         public int id { get; set; }
+        public string? user_booked { get; set; }
         public string? pilot { get; set; }
         public string? copilot { get; set; }
         public string? engineer { get; set; }

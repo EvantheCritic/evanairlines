@@ -213,12 +213,27 @@ namespace evanairlines.Controllers
             var token = Encoding.UTF8.GetString(decodedToken);
 
             var result = await userManager.ResetPasswordAsync(user, token, model.new_password);
+
             if (result.Succeeded)
             {
-                return Ok("Password reset successfully");
+                TempData["ResetStatus"] = "Password reset successfully";
+                return RedirectToAction("PasswordResetStatus");
             }
 
-            return BadRequest("Password reset failed");
+            TempData["ResetStatus"] = "Password reset failed";
+            return RedirectToAction("PasswordResetStatus");
+        }
+
+        public IActionResult PasswordResetStatus()
+        {
+            // Retrieve the status message from TempData
+            var resetStatus = TempData["ResetStatus"] as string;
+            // Pass the status message to the view
+            ViewBag.ResetStatus = resetStatus;
+
+            // Add additional logic as needed
+
+            return View();
         }
 
         public IActionResult Privacy()

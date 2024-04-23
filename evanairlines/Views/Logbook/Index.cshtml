@@ -8,6 +8,7 @@
 <table class="table">
     <thead class="thead-dark">
         <tr class="green-bg">
+            <th scope="col">Booked by</th>
             <th scope="col">Pilot</th>
             <th scope="col">Copilot</th>
             <th scope="col">Engineer</th>
@@ -23,6 +24,7 @@
         @foreach (var flight in Model)
         {
             <tr style="color: white">
+                <td>@flight.user_booked</td>
                 <td>@flight.pilot</td>
                 <td>@flight.copilot</td>
                 <td>@flight.engineer</td>
